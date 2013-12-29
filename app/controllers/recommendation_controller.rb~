@@ -1,0 +1,6 @@
+class RecommendationController < ApplicationController
+  set_tab :recommendation
+def index 
+
+end 
+end

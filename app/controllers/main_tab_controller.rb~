@@ -1,0 +1,5 @@
+class MainTabController < ApplicationController
+  set_tab :main_tab
+  def index
+  end
+end

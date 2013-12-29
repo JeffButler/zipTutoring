@@ -1,0 +1,5 @@
+<%= tabs_tag do |tab| %>
+  <%= tab.home 'Home', main_tab_path %>
+  <%= tab.tutor 'Tutors', tutor_path %>
+  <%= tab.recommendation   'Recommendations', recommendation_path %>
+<% end %>
