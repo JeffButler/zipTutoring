@@ -4,6 +4,8 @@ Todo list for zip tutoring
 	: 1.1 Logo <br>
 	: 1.2 Admin Button <br> 
 	: 1.3 Restful Routes to tabs <br> 
+	:: 1.3.1 Tryed Tabs on Rails but no css included
+        :: 1.3.2 Trying Tabulous for general app functionality 
 	: 1.4 Adding tab functionality <br> 
 
 2) Admin abilities <b> Due: 1/3/14 </b> <br> 

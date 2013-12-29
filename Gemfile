@@ -19,6 +19,7 @@ group :development, :test do
   gem 'factory_girl'
   gem 'taps'
   gem 'factory_girl_rails'
+  
 end
 
 group :test do
@@ -45,6 +46,8 @@ end
 
 gem 'jquery-rails'
 gem 'haml'
+gem 'tabs_on_rails'
+gem 'tabulous'
 
 # Use unicorn as the web server
 # gem 'unicorn'
