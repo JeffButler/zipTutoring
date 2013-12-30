@@ -48,6 +48,8 @@ gem 'jquery-rails'
 gem 'haml'
 gem 'tabs_on_rails'
 gem 'tabulous'
+gem 'activeadmin'
+gem "meta_search"
 
 # Use unicorn as the web server
 # gem 'unicorn'
