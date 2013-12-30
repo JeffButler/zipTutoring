@@ -1,10 +1,11 @@
 # Todo list for zip tutoring 
 
-## 1) Setup tab <b> Due: 12/30/13 </b> <br> 
-### 1.1 Logo <br>
-### 1.2 Admin Button <br> 
-### 1.3 Restful Routes to tabs <br> 
-### 1.4 Adding tab functionality <br> 
+## ~~1) Setup tab <b> Due: 12/30/13 </b> <br> ~~
+### ~~ 1.1 Logo <br> ~~
+### ~~ 1.2 Admin Button <br> ~~
+### ~~ 1.3 Restful Routes to tabs <br> ~~
+### ~~ 1.4 Adding tab functionality <br> ~~ 
+#### Used Tabulous 
 
 ## 2) Admin abilities <b> Due: 1/3/14 </b> <br> 
 ### 2.1 Admin login screen <br> 
