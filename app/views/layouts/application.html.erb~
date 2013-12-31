@@ -10,7 +10,7 @@
 
 <%= image_tag("cat.png", :alt => "rss feed", :height => "50", :width => "50") %>
 ZIP TUTORING
-<%= button_to "Login", login_path%>
+<%= button_to "Login", '/admin'%>
 <%= tabs %> 
 <%= subtabs %>
 <%= yield %>

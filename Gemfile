@@ -44,7 +44,7 @@ group :assets do
   gem 'uglifier'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 2.3.0'
 gem 'haml'
 gem 'tabs_on_rails'
 gem 'tabulous'

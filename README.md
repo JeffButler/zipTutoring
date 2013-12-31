@@ -1,7 +1,7 @@
 # Todo list for zip tutoring 
 
 ## <del> 1. Setup tab <b> Due: 12/30/13 </b> <br> </del>
-<del> ⋅⋅1. Logo <br> </del>
+### <del> 1.1 Logo <br> </del>
 ### <del> 1.2 Admin Button <br> </del>
 ### <del> 1.3 Restful Routes to tabs <br> </del>
 ### <del> 1.4 Adding tab functionality <br> </del> 
