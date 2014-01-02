@@ -1,0 +1,3 @@
+class TutorBio < ActiveRecord::Base
+  attr_accessible :description, :focus, :name
+end

@@ -1,0 +1,4 @@
+class AddPicToTutor < ActiveRecord::Migration
+  def change
+  end
+end
