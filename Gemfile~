@@ -48,7 +48,7 @@ gem 'jquery-rails', '~> 2.3.0'
 gem 'haml'
 gem 'tabs_on_rails'
 gem 'tabulous'
-gem 'activeadmin', '~> 0.6.0'
+gem 'activeadmin'
 gem "meta_search"
 
 # Use unicorn as the web server

@@ -1,5 +1,5 @@
 class AdminBio < ActiveRecord::Base
-  attr_accessible :contact, :description, :title, :pic
+  attr_accessible :contact, :description, :title
   has_attached_file :pic,
   :styles => {
     :thumb=> "100x100#",
