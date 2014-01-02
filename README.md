@@ -8,14 +8,18 @@
 #### Used Tabulous 
 
 ## 2) Admin abilities <b> Due: 1/3/14 </b> <br> 
-### 2.1 Admin login screen <br> 
-### Using Active Admin gem 
-### 2.2 Edit button will exist on eah page <br> 
-#### A. Form associate on each page with edit button <br> 
-#### B. Schemas associated with form <br> 
-##### i. create schema migration <br> 
-#### C. Remove/Add buttons to each page for admin <br> 
-### 2.3 Logout button 
+### <del> 2.1 Admin login screen <br> <del>
+### Using ActiveAdmin gem 
+### <del> 2.2 Edit button will exist on each page <br> <del>
+#### <del> A. Form associate on each page with edit button <br> <del> 
+#### <del> B. Schemas associated with form <br> <del>
+##### <del> i. create schema migration <br> <del>
+##### ii. Picture upload abilities <br> 
+###### Using paperclip gem 
+###### Decided not to use Amazon Web Services, s3
+#### <del> C. Remove/Add buttons to each page for admin <br> <del> 
+### <del> 2.3 Logout button <del> 
+
 
 ## 3) Tie fields in Home tab to Admin object <b> Due: 1/5/14 </b> <br> 
 

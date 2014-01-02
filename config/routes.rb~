@@ -1,3 +1,6 @@
+require 'activeadmin'
+
+
 ZipTutoring::Application.routes.draw do
   
   root :to => redirect('/home')
