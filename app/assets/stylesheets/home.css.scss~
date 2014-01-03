@@ -17,6 +17,3 @@ div#home_div_description {
 h1#home_h1{
   padding-left:20px;
 }
-h2#home_h2{
-  padding-left:20px;
-}

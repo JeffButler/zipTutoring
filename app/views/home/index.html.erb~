@@ -1,10 +1,8 @@
-<h1 id = "home_h1" > About ZipTutoring</h1>
-<h2 id = "home_h2" > Found of ZipTutoring: <%= @bio.title %> </h2>
+<h1 id = "home_h1" > Founder of Zip Tutoring: <%= @bio.title %></h1>
 
 <div id= "home_div"> 
 <%= image_tag(@bio.pic, :alt => "rss feed", :id => "bio_pic") %>
 </div> 
-
 <div id= "home_div_description">
 <%= @bio.description %>
 </div>
