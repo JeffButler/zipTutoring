@@ -2,6 +2,6 @@
 <br>
   <%= t.name %>, 
   <%= t.focus %>, 
-  <%= image_tag(t.pic, :alt => "rss feed", :id => "t.name") %>
+  <%= image_tag(@t.pic, :alt => "rss feed", :id => "t.name") %>
 </br>
 <% end %>

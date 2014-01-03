@@ -1,5 +1,6 @@
 class TutorController < ApplicationController
+  set_tab :tutor
  def index 
-
+   @tutors = Tutor.all
  end
 end

@@ -1,6 +1,5 @@
 class RecommendationController < ApplicationController
-  set_tab :recommendation
-def index 
-
-end 
+  def index 
+    @recommendations = Recommendation.all
+  end 
 end
