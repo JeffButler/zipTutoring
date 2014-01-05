@@ -6,6 +6,5 @@ class AdminBio < ActiveRecord::Base
     :small  => "150x150>",
     :medium => "300x300>",
     :large =>   "400x400>" },
-  :s3_credentials => S3_CREDENTIALS, 
-  :bucket => ENV['BUCKET_NAME']
+    :s3_credentials => S3_CREDENTIALS
 end

@@ -1,0 +1,9 @@
+# config/s3.yml
+development:
+  access_key_id: AKIAITMZ5YQ2ULFX4X7A
+  secret_access_key: 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
+  bucket: zipmedia
+production:
+  access_key_id: AKIAITMZ5YQ2ULFX4X7A
+  secret_access_key: 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
+  bucket: zipmedia
