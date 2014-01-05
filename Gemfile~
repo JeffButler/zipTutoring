@@ -50,6 +50,7 @@ gem 'tabs_on_rails'
 gem 'tabulous'
 gem 'activeadmin'
 gem "meta_search"
+gem "paperclip", "~> 2.3"
 
 # Use unicorn as the web server
 # gem 'unicorn'

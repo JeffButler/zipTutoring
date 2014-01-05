@@ -53,6 +53,14 @@ ZipTutoring::Application.configure do
 
   # Enable threaded mode
   # config.threadsafe!
+  config.paperclip_defaults = {
+  :storage => :s3,
+  :s3_credentials => {
+    :bucket => ENV['zipmedia'],
+    :access_key_id => ENV['AKIAITMZ5YQ2ULFX4X7A'],
+    :secret_access_key => ENV['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']
+    }
+  } 
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation can not be found)

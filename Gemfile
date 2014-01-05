@@ -51,6 +51,7 @@ gem 'tabulous'
 gem 'activeadmin'
 gem "meta_search"
 gem "paperclip", "~> 2.3"
+gem 'aws-sdk'
 
 # Use unicorn as the web server
 # gem 'unicorn'
