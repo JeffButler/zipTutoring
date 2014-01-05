@@ -35,12 +35,12 @@ ZipTutoring::Application.configure do
   # Expands the lines which load the assets
   config.assets.debug = true
 
-  config.paperclip_defaults = {
-  :storage => :s3,
-  :s3_credentials => {
-    :bucket => ENV['zipmedia'],
-    :access_key_id => ENV['AKIAITMZ5YQ2ULFX4X7A'],
-    :secret_access_key => ENV['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']
-    }
-  } 
+   config.paperclip_defaults = { 
+   :storage => :s3,
+   :s3_credentials => { 
+     :bucket => ENV['AWS_BUCKET'],
+     :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
+     :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY'] 
+   }
+ }  
 end
