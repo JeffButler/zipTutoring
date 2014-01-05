@@ -4,8 +4,7 @@ form :html => { :enctype => "multipart/form-data" } do |f|
     f.input :title
     f.input :description
     f.input :contact
-    f.input :pic, :as => :file, :hint => f.template.image_tag(f.object.pic.url(:medium))
-   # f.input :photo, :as => :file, :hint => f.template.image_tag(f.object.photo.url(:medium))
+    f.input :attach, :as => :file, :hint => f.template.image_tag(f.object.attach.url(:medium))
   end
   f.buttons
  end
