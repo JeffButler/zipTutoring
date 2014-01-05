@@ -4,13 +4,21 @@
   <title>ZipTutoring</title>
   <%= stylesheet_link_tag "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
+  <%= javascript_include_tag "jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.min" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= image_tag("cat.png", :alt => "rss feed", :height => "50", :width => "50") %>
-ZIP TUTORING
-<%= button_to "Login", '/admin'%>
+<div id= "header_top_div">
+  <div id= "header_left_div">
+    <%= image_tag("cat.png", :alt => "rss feed", :height => "50", :width => "50") %>
+    ZIP TUTORING
+  </div> 
+  <div id = "header_right_div">
+    <%= button_to "Admin", '/admin'%>
+  </div>
+</div> 
+
 <%= tabs %> 
 <%= subtabs %>
 <%= yield %>

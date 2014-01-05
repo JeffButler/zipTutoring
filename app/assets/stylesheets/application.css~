@@ -30,7 +30,7 @@
 #header_left_div{
   float: left;
   padding: 5px;	
-  padding-left: 20px;	
+  padding-left: 100px;	
 }
 
 #header_right_div{
