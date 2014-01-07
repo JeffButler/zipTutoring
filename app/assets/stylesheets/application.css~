@@ -9,7 +9,7 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self	
- *= require_tree .
+ *= require_tree 
  */
 /** CUSTOM AREA START **/
 /**
@@ -25,27 +25,45 @@
   width: 100%;
   font-size: 20px;
   font-style: italic;
+  background-color: #FFFFFF;
 }
 
 #header_left_div{
   float: left;
   padding: 5px;	
-  padding-left: 100px;	
+  padding-left: 20px;	
 }
 
 #header_right_div{
   float: right;
   padding: 20px;
 }
-/** CUSTOM AREA END **/
+
+.tabs {
+  position: fixed;
+  top: 52px;
+  right: 0px;
+}
+.tabs ul {
+  background-color: #FFFFFF !important;
+}
+
+.tabs ul li {
+  float: right !important;
+}
+
+/** Grey Hex 6B6C70 **/
+/** Green Hex 38B648 **/
+/** 1stwebdesigner.com Zendesk **/
+/** CUSTOM AREA END 6B6C70 **/
 body { 
 	margin: 0;
 	padding: 0;
-	color: #222;
+	color: #FFFFFF !important;
 	font-size: 12px;
 	line-height: 1.6em; 
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	background-color: #868686;
+	background-color: #38B648 !important;
 	background-image:  url(images/templatemo_body.jpg);
 	background-position: top;
 	background-repeat: repeat-x
@@ -60,7 +78,7 @@ ul, li {
 	list-style:none;
 }
 
-h1, h2, h3, h4, h5, h6 { color: #000; font-weight: normal; }
+h1, h2, h3, h4, h5, h6 { color: #FFFFFF !important; font-weight: normal; }
 h1 { font-size: 36px; margin: 0 0 30px; padding: 5px 0 }
 h2 { font-size: 24px; margin: 0 0 25px; padding: 5px 0 }
 h3 { font-size: 20px; margin: 0 0 20px; padding: 0; }

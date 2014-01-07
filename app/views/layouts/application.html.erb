@@ -10,15 +10,15 @@
 
 <div id= "header_top_div">
   <div id= "header_left_div">
-    <%= image_tag("cat.png", :alt => "rss feed", :height => "50", :width => "50") %>
-    ZIP TUTORING
+    <%= image_tag("zip_logo.png", :alt => "rss feed", :height => "100") %>
   </div> 
   <div id = "header_right_div">
     <%= button_to "Admin", '/admin'%>
   </div>
+  <%= tabs %> 
 </div> 
 
-<%= tabs %> 
+
 <%= subtabs %>
 <%= yield %>
 </body>
