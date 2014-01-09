@@ -85,6 +85,7 @@ tabs a{
    background: -webkit-gradient(radial, center center, 0, center center, 660,  from(#859487), to(#38B648)) !important;
    position: absolute;
    width: 100%;
+   height: 100%;
 }
 
 
