@@ -1,5 +1,7 @@
 class RecommendationController < ApplicationController
   def index 
-    @recommendations = Recommendation.all
+    if Recommendation.all.length > 0
+      @recommendations = Recommendation.all
+    end 
   end 
 end

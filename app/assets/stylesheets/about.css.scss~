@@ -60,6 +60,7 @@ div#home_div_description {
   text-align: center;
   line-height: 1.7em;
   list-style-type: none;
+  max-height: 100px;
 }
 
 .footerCenter {

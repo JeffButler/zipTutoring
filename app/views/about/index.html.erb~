@@ -18,7 +18,7 @@
         <a href= <%= home_path %> >Home</a> | 
         <a href= <%= about_path %> >About</a>  | 
         <a href= <%= tutor_path %> >Tutors</a>  |
-        <a href= <%= recommendation_path %> >Recommendaions</a>  
+        <a href= <%= recommendation_path %> >Recommendations</a>  
       </p> 
       <p> 
         Email <%= @bio.title %> at <%= @bio.contact %>
