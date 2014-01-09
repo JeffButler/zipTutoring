@@ -68,6 +68,7 @@ tabs a{
 .tabs, .tabs a, .tabs a:visited, .tabs a:hover {
    color: #38B648 !important;
    background-color: #FFF !important;
+   overflow: hidden !important;
 }
 
 /**.tabs a:visited {

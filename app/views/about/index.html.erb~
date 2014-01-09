@@ -1,11 +1,30 @@
-<h1 id = "home_h1" > About ZipTutoring</h1>
-<h2 id = "home_h2" > Found of ZipTutoring: <%= @bio.title %> </h2>
+<div class= "tab_body">
+  <div class = "contentContainer">
+    <div class = "imageContainer">
+      <div id= "pic_div"> 
+        <%= image_tag(@bio.pic, :alt => "rss feed", :id => "bio_pic") %>
+      </div>
+    </div>  
+    <div id= "home_div_description">
+      <h2 id = "home_h2" > About ZipTutoring </h2>
+      <%= @bio.description %>
+      <br></br>
+      <h2> Skills and Services </h2> 
+    </div>
+  </div> 
+  <div class= "footer"> 
+    <div class= "footerCenter"> 
+      <p> 
+        <a href= <%= home_path %> >Home</a> | 
+        <a href= <%= about_path %> >About</a>  | 
+        <a href= <%= tutor_path %> >Tutors</a>  |
+        <a href= <%= recommendation_path %> >Recommendaions</a>  
+      </p> 
+      <p> 
+        Email <%= @bio.title %> at <%= @bio.contact %>
+      </p> 
+    </div> 
+  </div>
 
-<div id= "home_div"> 
-<%= image_tag(@bio.pic, :alt => "rss feed", :id => "bio_pic") %>
+
 </div> 
-
-<div id= "home_div_description">
-<%= @bio.description %>
-</div>
-Interested in being tutored or tutoring? You can reach <%= @bio.title %> at <%= @bio.contact %>
