@@ -24,7 +24,8 @@
   display: table;
   width: 100%;
   font-size: 20px;
-  font-style: italic;
+  font-style: bold;
+  font-family:Arial,Helvetica,sans-serif;
   background-color: #FFFFFF;
 }
 
@@ -39,9 +40,11 @@
   padding: 20px;
 }
 
+
+
 .tabs {
-  position: fixed;
-  top: 52px;
+  position: relative;
+  top: 55px;
   right: 0px;
 }
 .tabs ul {
@@ -51,6 +54,41 @@
 .tabs ul li {
   float: right !important;
 }
+
+tabs a{
+ color:  #38B648 !important;
+  background-color: #FFF !important;
+}
+
+.tabs ul li.active .tab {
+  color:  #FFF !important;
+  background-color: #38B648 !important;
+}
+
+.tabs, .tabs a, .tabs a:visited, .tabs a:hover {
+   color: #38B648 !important;
+   background-color: #FFF !important;
+}
+
+/**.tabs a:visited {
+  color: #000 !important;
+  background-color: #38B648 !important;
+}**/
+
+.tabs a:hover{
+  background-color: #000 !important;
+  color: #FFF !important;
+}
+
+.tab_body {
+   background: -webkit-gradient(radial, center center, 0, center center, 660,  from(#859487), to(#38B648)) !important;
+   height: 100%;
+   position: absolute;
+   width: 100%;
+}
+
+
+
 
 /** Grey Hex 6B6C70 **/
 /** Green Hex 38B648 **/
@@ -63,11 +101,13 @@ body {
 	font-size: 12px;
 	line-height: 1.6em; 
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	background-color: #38B648 !important;
+	/** background-color: #38B648 !important; **/
 	background-image:  url(images/templatemo_body.jpg);
 	background-position: top;
 	background-repeat: repeat-x
 }
+
+
 
 a, a:link, a:visited { color: #0066AA; font-weight: normal; text-decoration: none }
 a:hover { color: #009933; text-decoration: none; }

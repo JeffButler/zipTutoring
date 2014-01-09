@@ -13,5 +13,6 @@ ZipTutoring::Application.routes.draw do
   get "/recommendation", :controller => 'recommendation', :action => 'index'
   post "/login", :controller => 'login', :action => 'index'
   get "/login", :controller => 'login', :action => 'index'
+  get "/about", :controller => 'About', :action => 'index'
  
 end

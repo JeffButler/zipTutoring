@@ -2,28 +2,37 @@ Tabulous.setup do
 
   tabs do
 
-    main_tab_tab do
-      text          { 'Home' }
-      link_path     { home_path }
-      visible_when  { true }
-      enabled_when  { true }
-      active_when   { in_action('any').of_controller('home') }
-    end
-
-    tutor_tab do
-      text          { 'Tutor' }
-      link_path     { tutor_path }
-      visible_when  { true }
-      enabled_when  { true }
-      active_when   { in_action('any').of_controller('tutor') }
-    end
-
+   
     recommendation_tab do
       text          { 'Recommendations' }
       link_path     { recommendation_path }
       visible_when  { true }
       enabled_when  { true }
       active_when   { in_action('any').of_controller('recommendation') }
+    end
+
+    tutor_tab do
+      text          { 'Tutors' }
+      link_path     { tutor_path }
+      visible_when  { true }
+      enabled_when  { true }
+      active_when   { in_action('any').of_controller('tutor') }
+    end
+
+    about_tab do 
+      text          { 'About' }
+      link_path     { about_path }
+      visible_when  { true }
+      enabled_when  { true }
+      active_when   { in_action('any').of_controller('about') }
+    end
+
+     main_tab_tab do
+      text          { 'Home' }
+      link_path     { home_path }
+      visible_when  { true }
+      enabled_when  { true }
+      active_when   { in_action('any').of_controller('home') }
     end
 
   end

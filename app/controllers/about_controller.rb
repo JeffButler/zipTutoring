@@ -1,5 +1,4 @@
-class HomeController < ApplicationController
- 
+class AboutController < ApplicationController
   def index 
     if AdminBio.all.length > 0
       @bio = AdminBio.all.first
