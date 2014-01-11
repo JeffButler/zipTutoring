@@ -5,7 +5,10 @@
         <p> 
           <div class= "quotes">
             <%= rec.quote %>, 
-          </div> <%= rec.author %>
+          </div> 
+          <div class= "author"> 
+            <%= rec.author %>
+          </div>
         </p> 
       <% end %>
     </div>

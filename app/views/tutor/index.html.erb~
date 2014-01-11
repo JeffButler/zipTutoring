@@ -1,7 +1,18 @@
-<% @tutors.each do |t| %>
-<br>
-  <%= t.name %>, 
-  <%= t.focus %>, 
-  <%= image_tag(t.pic, :alt => "rss feed", :id => "t.name") %>
-</br>
-<% end %>
+<div class = "tab_body"> 
+  <div class = "contentContainer">
+    <div class = "tutorGalleryContainer"> 
+      <% @tutors.each do |t| %>
+        <div class = "tutorGalleryUnitBackground">
+          <%= image_tag(t.pic, :alt => "rss feed", :id => "t.name", :class => "pic_div") %>
+          <div class = "tutorGalleryUnitDescription">
+            <h2 class= "tutor_h2" > <%= t.name %> </h2> 
+            <!-- <h3> Tutoring Subjects </h3> -->
+            <p> 
+              <%= t.focus %> 
+            </p> 
+          </div>
+        </div>
+      <% end %>   
+    </div> 
+  </div> 
+</div> 

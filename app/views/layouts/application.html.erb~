@@ -17,6 +17,8 @@
   </div>
   <%= tabs %> 
 </div> 
+<%= subtabs %>
+<%= yield %>
 <div class= "footer"> 
     <div class= "footerCenter"> 
       <p> 
@@ -29,12 +31,6 @@
         Email <%= @bio.title %> at <%= @bio.contact %>
       </p> 
     </div> 
-  </div>
-
-
-<%= subtabs %>
-
-<%= yield %>
-
+</div>
 </body>
 </html>

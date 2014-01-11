@@ -1,9 +1,31 @@
 <div class = "tab_body"> 
-<% @tutors.each do |t| %>
-<br>
-  <%= t.name %>, 
-  <%= t.focus %>, 
-  <%= image_tag(t.pic, :alt => "rss feed", :id => "t.name") %>
-</br>
-<% end %>
+  <div class = "contentContainer">
+    <div class = "tutorGalleryContainer"> 
+      <% @tutors.each do |t| %>
+        <div class = "tutorGalleryUnitBackground">
+          <%= image_tag(t.pic, :alt => "rss feed", :id => "t.name", :class => "pic_div") %>
+          <div class = "tutorGalleryUnitDescription">
+            <h2 class= "tutor_h2" > <%= t.name %> </h2> 
+            <!-- <h3> Tutoring Subjects </h3> -->
+            <p> 
+              <%= t.focus %> 
+            </p> 
+          </div>
+        </div>
+      <% end %>   
+    </div> 
+  </div> 
+  <div class= "footer"> 
+    <div class= "footerCenter"> 
+      <p> 
+        <a href= <%= home_path %> >Home</a> | 
+        <a href= <%= about_path %> >About</a>  | 
+        <a href= <%= tutor_path %> >Tutors</a>  |
+        <a href= <%= recommendation_path %> >Recommendations</a>  
+      </p> 
+      <p> 
+        Email <%= @bio.title %> at <%= @bio.contact %>
+      </p> 
+    </div> 
+  </div>
 </div> 
