@@ -3,11 +3,10 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .quotes{
-  display: inline-block;
+  
 }
 .author{
   font-style: normal;
-   display: inline-block;
 }
 .quotes:before
 {
@@ -26,6 +25,7 @@ font-style: italic;
 }
 
 .quoteContainer{
+  display: inline-block;
   text-align: center;
   border: 10px solid;
   font-size: 1.4em;

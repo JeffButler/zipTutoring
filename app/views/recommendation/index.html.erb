@@ -1,11 +1,18 @@
 <div class = "tab_body" > 
-<% @recommendations.each do |rec| %>
-<br>
-  "<%= rec.quote %>", 
-  <%= rec.author %>
-</br>
-<% end %>
-
+  <div class = "contentContainer">
+    <div class = "quoteContainer">
+      <% @recommendations.each do |rec| %>
+        <p> 
+          <div class= "quotes">
+            <%= rec.quote %>, 
+          </div> 
+          <div class= "author"> 
+            <%= rec.author %>
+          </div>
+        </p> 
+      <% end %>
+    </div>
+  </div>
 </div> 
 
 
