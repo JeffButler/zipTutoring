@@ -1,2 +1,25 @@
 <div class= "tab_body" >
+  <div class = "contentContainer">
+    <div class = "homeTopWrapper"> 
+    <div class = "homeTopContainer"> 
+      <div> 
+        <%= image_tag("tutor.jpg", :alt => "rss feed", :class => "home_pic") %>
+        <h2 class= "homeTopContainerh2" ><span id= "rec_quote"><%= @rec.quote %></span></br><span id= "span_author"><%= @rec.author %></span></h2>
+      </div>
+    </div>
+    </div> 
+  </div>
+  <div class= "footer"> 
+    <div class= "footerCenter"> 
+      <p> 
+        <a href= <%= home_path %> >Home</a> | 
+        <a href= <%= about_path %> >About</a>  | 
+        <a href= <%= tutor_path %> >Tutors</a>  |
+        <a href= <%= recommendation_path %> >Recommendations</a>  
+      </p> 
+      <p> 
+        Email <%= @bio.title %> at <%= @bio.contact %>
+      </p> 
+    </div> 
+</div>
 <div/>

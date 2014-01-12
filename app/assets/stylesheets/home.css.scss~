@@ -2,16 +2,89 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-<div class= "footer"> 
-    <div class= "footerCenter"> 
-      <p> 
-        <a href= <%= home_path %> >Home</a> | 
-        <a href= <%= about_path %> >About</a>  | 
-        <a href= <%= tutor_path %> >Tutors</a>  |
-        <a href= <%= recommendation_path %> >Recommendations</a>  
-      </p> 
-      <p> 
-        Email <%= @bio.title %> at <%= @bio.contact %>
-      </p> 
-    </div> 
-</div>
+.homeTopWrapper{
+  background: -webkit-gradient(radial, center center, 389, center center, 498, from(white), to(#38B648)) !important;
+}
+
+.homeTopContainer{
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.homeTopContainer{
+  position: relative;
+}
+
+.homeTopContainer img {
+  position: relative; 
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homeTopContainerh2 {
+  position:absolute;
+  bottom: 2px;
+  right: 2px;
+  width: 45%;
+  max-height: 30%;
+  padding: 5px;
+  text-align: right;
+  font-size: 1em;
+  margin-bottom: 0.55em;
+}
+
+.homeTopContainer span:after{
+  content: '\201D';
+  font-weight: bold;
+  font-size: 2em;
+  font-style: italic;
+}
+
+.homeTopContainer span:before{
+  content: '\201C';
+  font-weight: bold;
+  font-size: 2em;
+  font-style: italic;
+}
+
+.homeTopContainer span {
+   color: white; 
+   font: bold 13px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0) !important; /* fallback color */
+   background: rgba(0, 0, 0, 0.7) !important;
+   padding: 10px; 
+   font-style: italic;
+   display: inline-block;
+   line-height: 1.5em;
+}
+
+#span_author {
+   color: white; 
+   font: bold 12px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0) !important; /* fallback color */
+   background: rgba(0, 0, 0, 0.7) !important;
+   padding: 10px; 
+   font-style: italic;
+   display: inline-block;
+   line-height: 1.5em;
+}
+#span_author:before{
+  content: '';
+  font-weight: bold;
+  font-size: 2em;
+  font-style: italic;
+}
+
+#span_author:after{
+  content: '';
+  font-weight: bold;
+  font-size: 2em;
+    
+  font-style: italic;
+}
+
+
