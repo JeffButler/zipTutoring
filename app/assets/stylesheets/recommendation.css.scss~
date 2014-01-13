@@ -33,7 +33,6 @@ div.quotes{
 
 br.quoteContainer{
   display: block;
-  margin: 5px 0;
   line-height: 5px;
 }
 
