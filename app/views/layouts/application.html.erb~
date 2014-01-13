@@ -13,24 +13,14 @@
     <%= image_tag("zip_logo.png", :alt => "rss feed", :height => "100") %>
   </div> 
   <div id = "header_right_div">
+    <div id = "top_contact_info"> 
+    jen@gmail.com       1(408) 621-1389
+    </div>  
     <%= button_to "Admin", '/admin'%>
   </div>
   <%= tabs %> 
 </div> 
 <%= subtabs %>
 <%= yield %>
-<div class= "footer"> 
-    <div class= "footerCenter"> 
-      <p> 
-        <a href= <%= home_path %> >Home</a> | 
-        <a href= <%= about_path %> >About</a>  | 
-        <a href= <%= tutor_path %> >Tutors</a>  |
-        <a href= <%= recommendation_path %> >Recommendations</a>  
-      </p> 
-      <p> 
-        Email <%= @bio.title %> at <%= @bio.contact %>
-      </p> 
-    </div> 
-</div>
 </body>
 </html>
