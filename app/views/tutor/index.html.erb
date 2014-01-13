@@ -1,6 +1,7 @@
 <div class = "tab_body"> 
   <div class = "contentContainer">
     <div class = "tutorGalleryContainer"> 
+      <h2 id= "tutor_title" > Meet the ZipTutoring Team </h2> 
       <% @tutors.each do |t| %>
         <div class = "tutorGalleryUnitBackground">
           <%= image_tag(t.pic, :alt => "rss feed", :id => "t.name", :class => "pic_div") %>

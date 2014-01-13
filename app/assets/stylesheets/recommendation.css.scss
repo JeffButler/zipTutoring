@@ -4,6 +4,8 @@
 
 .quotes{
   display: inline-block;
+  line-height: 1.5em;
+  padding: 2px;
 }
 .author{
   font-style: normal;
@@ -25,9 +27,19 @@ font-size: 2em;
 font-style: italic;
 }
 
+div.quotes{
+  line-height: 1em !important;
+}
+
+br.quoteContainer{
+  display: block;
+  line-height: 5px;
+}
+
 .quoteContainer{
   text-align: center;
   border: 10px solid;
   font-size: 1.4em;
   font-style: italic;
+  line-height: 2em;
 }

@@ -43,7 +43,22 @@
 }
 
 p{
-  padding-left: 2px !important;
+  padding: 4px !important;
   line-height: 1.4em !important;
   list-style-type: none !important;
+  
 }
+
+#tutor_title{
+  font-weight:normal;
+  font-variant:small-caps;
+  color:#FFFFFF;
+  letter-spacing:0pt;
+  word-spacing:3pt;
+  font-size:27px;
+  text-align:center;
+  font-family:Helvetica, Arial, sans-serif;
+  margin-bottom: 0.25em;
+  padding-bottom: 5px;
+  border-bottom: 5px dotted #4A4949;
+}	

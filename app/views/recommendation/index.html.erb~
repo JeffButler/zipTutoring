@@ -1,17 +1,30 @@
 <div class = "tab_body" > 
   <div class = "contentContainer">
+    <h2 id = "tutor_title" > What People Think About ZipTutoring </h2> 
     <div class = "quoteContainer">
       <% @recommendations.each do |rec| %>
-        <p> 
+          <br/>
           <div class= "quotes">
             <%= rec.quote %>, 
           </div> 
           <div class= "author"> 
             <%= rec.author %>
           </div>
-        </p> 
       <% end %>
     </div>
+  </div>
+  <div class= "footer"> 
+    <div class= "footerCenter"> 
+      <p> 
+        <a href= <%= home_path %> >Home</a> | 
+        <a href= <%= about_path %> >About</a>  | 
+        <a href= <%= tutor_path %> >Tutors</a>  |
+        <a href= <%= recommendation_path %> >Recommendations</a>  
+      </p> 
+      <p> 
+        Email <%= @bio.title %> at <%= @bio.contact %>
+      </p> 
+    </div> 
   </div>
 </div> 
 

@@ -1,6 +1,6 @@
 <div class= "tab_body" >
   <div class = "contentContainer">
-    <h2> Tutoring for students by students </h2> 
+    <h2 id= "homeMoto"> Tutoring for students by students </h2> 
     <div class = "homeTopWrapper"> 
     <div class = "homeTopContainer"> 
       <div> 
