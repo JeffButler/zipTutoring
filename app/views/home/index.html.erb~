@@ -12,17 +12,17 @@
     <div id = "homeBottomContainer"> 
       <section id = "section_solve">
         <h3> Our Mission </h3>
-        <h2> Better Tutoring Now </h3> 
+        <h2> Better Tutoring Now </h2> 
         <p>  
-        Students who have are in the same shoes as their clients. 
+        To provide all students with interactive, personalized tutoring that creates lasting study habits and develops learning skills 
         </p> 
         <a class= "button" href= <%= about_path %> >Learn More</a>
       </section> 
       <section id = "section_who"> 
        <h3> Who Are We? </h3> 
-       <h2> ZipTutoring Of Course! </h2> 
+       <h2> Experienced Tutors </h2> 
        <p>  
-       A Mix of High school students and Junior College students trying to raise money to fund their tuitions at the same time helping other students reach their academic goals.  
+       A blend of high school and college level tutors ready to meet your student's every academic need  
        </p> 
        <a class= "button" href= <%= tutor_path %> >Our Staff</a>
       </section>
