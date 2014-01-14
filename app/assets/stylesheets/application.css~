@@ -55,7 +55,7 @@
 .tabs {
   right: 0px;
   float: right;
-  top: 75px;
+  top: 80px;
   position: absolute !important;
 }
 .tabs ul {
