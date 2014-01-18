@@ -14,7 +14,7 @@
   </div> 
   <div id = "header_right_div">
     <div id = "top_contact_info"> 
-    jen@gmail.com       1(408) 621-1389
+    ziptutoring4u@gmail.com   (408) 621-1389
     </div>  
     <%= button_to "Admin", '/admin'%>
   </div>

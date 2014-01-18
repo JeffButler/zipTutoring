@@ -22,7 +22,8 @@ div#home_div_description {
 
 #home_subjects section{
   float: left;
-  width: 135px;
+  width: 190px;
+  text-align: center;
 }
 
 .contentContainer{
