@@ -2,15 +2,17 @@
   <div class = "contentContainer">
     <h2 id = "tutor_title" > What People Think About ZipTutoring </h2> 
     <div class = "quoteContainer">
-      <% @recommendations.each do |rec| %>
-          <br/>
-          <div class= "quotes">
-            <%= rec.quote %>, 
-          </div> 
-          <div class= "author"> 
-            <%= rec.author %>
-          </div>
-          <br/>
+      <% if @recommendations %>
+        <% @recommendations.each do |rec| %>
+            <br/>
+            <div class= "quotes">
+              <%= rec.quote %>, 
+            </div> 
+            <div class= "author"> 
+              <%= rec.author %>
+            </div>
+            <br/>
+        <% end %> 
       <% end %>
     </div>
   </div>

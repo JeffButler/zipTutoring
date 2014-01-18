@@ -10,6 +10,7 @@
           <div class= "author"> 
             <%= rec.author %>
           </div>
+          <br/>
       <% end %>
     </div>
   </div>
