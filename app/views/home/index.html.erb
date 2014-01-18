@@ -5,7 +5,9 @@
     <div class = "homeTopContainer"> 
       <div> 
         <%= image_tag("tutor.jpg", :alt => "rss feed", :class => "home_pic") %>
-        <h2 class= "homeTopContainerh2" ><span id= "rec_quote"><%= @rec.quote %></span></br><span id= "span_author"><%= @rec.author %></span></h2>
+        <% if @rec %>
+          <h2 class= "homeTopContainerh2" ><span id= "rec_quote"><%= @rec.quote %></span></br><span id= "span_author"><%= @rec.author %></span></h2>
+        <% end %>
       </div>
     </div>
     </div> 
