@@ -32,7 +32,11 @@ Tabulous.setup do
       link_path     { home_path }
       visible_when  { true }
       enabled_when  { true }
-      active_when   { in_action('any').of_controller('home') }
+      active_when   do 
+        in_action('any').of_controller('home') 
+	in_action('any').of_controller('contact')
+      
+      end
     end
 
   end

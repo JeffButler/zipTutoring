@@ -1,26 +1,43 @@
-<%= form_for @message, :url => contact_path do |form| %>
-  <fieldset class="fields">
-    <div class="field">
-      <%= form.label :name %>
-      <%= form.text_field :name %>
-    </div>
-    
-    <div class="field">
-      <%= form.label "Email" %>
-      <%= form.text_field :email %>
-    </div>
-    <div class="field">
-      <%= form.label :subject %>
-      <%= form.text_field :subject %>
-    </div>
-    
-    <div class="field">
-      <%= form.label :body %>
-      <%= form.text_area :body %>
-    </div>
-  </fieldset>
-  
-  <fieldset class="actions">
-    <%= form.submit "Send" %>
-  </fieldset>
-<% end %>
+<div class= "tab_body">
+  <div class = "contentContainer">
+    <div id= "contact_div_title">
+      <h2 id = "contact_title" > Contact ZipTutoring </h2>
+    </div> 
+    <%= form_for @message, :url => contact_path do |form| %>
+      <fieldset class="fields">
+        <div class="field">
+          <%= form.label "Name" %> 
+          <%= form.text_field :name %>
+        </div>
+       <div class="field">
+         <%= form.label "Email" %>
+         <%= form.text_field :email %>
+       </div>
+       <div class="field">
+         <%= form.label :subject %>
+         <%= form.text_field :subject %>
+       </div>
+       <div class="field">
+         <%= form.label :body %>
+         <%= form.text_area :body %>
+       </div>
+     </fieldset>
+     <fieldset class="actions", id= "send_email_div">
+       <%= form.submit "Send", id: "send_email"%>
+     </fieldset>
+    <% end %>
+  </div> 
+  <div class= "footer"> 
+    <div class= "footerCenter"> 
+      <p> 
+        <a href= <%= home_path %> >Home</a> | 
+        <a href= <%= about_path %> >About</a>  | 
+        <a href= <%= tutor_path %> >Tutors</a>  |
+        <a href= <%= recommendation_path %> >Recommendations</a>  
+      </p> 
+      <p> 
+        Email Ziptutoring at ziptutoring4u@gmail.com
+      </p> 
+    </div> 
+  </div>
+</div> 

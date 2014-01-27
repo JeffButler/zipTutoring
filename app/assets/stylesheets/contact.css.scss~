@@ -63,8 +63,7 @@ div.field form fieldset{
   margin-bottom: 0px;
 }
 
-#send_email_div{
-  text-align: center;
-margin-top: -20px;
+#send_email{
+  margin-top: -10px;
 }
 
