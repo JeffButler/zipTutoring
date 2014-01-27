@@ -65,15 +65,15 @@
 }
 
 .homeTopContainer span {
-   color: white; 
-   font: bold 13px/45px Helvetica, Sans-Serif; 
-   letter-spacing: -1px;  
-   background: rgb(0, 0, 0) !important; /* fallback color */
-   background: rgba(0, 0, 0, 0.7) !important;
-   padding: 10px; 
-   font-style: italic;
-   display: inline-block;
-   line-height: 1.5em;
+   color: white;
+font: bold 12px/45px Helvetica, Sans-Serif;
+letter-spacing: 1px;
+background: black !important;
+background: rgba(0, 0, 0, 0.7) !important;
+padding: 10px;
+font-style: italic;
+display: inline-block;
+line-height: 1.2em;
 }
 
 #homeBottomContainer{

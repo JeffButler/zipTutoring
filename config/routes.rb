@@ -8,6 +8,9 @@ ZipTutoring::Application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
+  match 'contact' => 'contact#new', :as => 'contact', :via => :get
+  match 'contact' => 'contact#create', :as => 'contact', :via => :post
+
   get "/home", :controller => 'home', :action => 'index'
   get "/tutor", :controller => 'tutor', :action => 'index'
   get "/recommendation", :controller => 'recommendation', :action => 'index'

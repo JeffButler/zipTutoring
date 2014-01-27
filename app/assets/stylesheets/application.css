@@ -76,7 +76,7 @@ tabs a{
 
 .tabs ul li.active .tab {
   color:  #FFF !important;
-  background-color: #38B648 !important;
+  background-color: #38B650 !important;
 }
 
 .tabs, .tabs a, .tabs a:visited, .tabs a:hover {

@@ -4,7 +4,7 @@
 
 .homeTopWrapper{
   background: -webkit-gradient(radial, center center, 389, center center, 498, from(white), to(#38B648)) !important;
-  background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 56%, rgba(56,182,72,1) 80%); /* FF3.6+ */
+  /**background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 56%, rgba(56,182,72,1) 80%); /* FF3.6+ */
 }
 
 #homeMoto{
