@@ -105,6 +105,24 @@ tabs a{
    padding-bottom: 100px;
 }
 
+.flash {
+   background: white;
+   margin: 1em 0;
+   padding: 4px;
+   color: red;
+   text-align: center;
+   font-weight: bold;
+}
+
+
+.flash_success {
+   background: white;
+   margin: 1em 0;
+   padding: 4px;
+   color: blue;
+   text-align: center;
+   font-weight: bold;
+} 
 /** FOOTER **/
 
 .footer {

@@ -1,8 +1,11 @@
 <div class= "tab_body" >
   <div class = "contentContainer">
     <h2 id= "homeMoto"> Tutoring for Students, by Students </h2> 
+    <% if @notice %>
+      <div class="flash_success"> <%= @notice %> </div>
+    <% end %>
     <div class = "homeTopWrapper"> 
-    <div class = "homeTopContainer"> 
+    <div class = "homeTopContainer">
       <div> 
         <%= image_tag("tutor.jpg", :alt => "rss feed", :class => "home_pic") %>
         <% if @rec %>

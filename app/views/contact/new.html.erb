@@ -3,6 +3,9 @@
     <div id= "contact_div_title">
       <h2 id = "contact_title" > Contact ZipTutoring </h2>
     </div> 
+      <% flash.each do |key, value| %>
+        <div class="flash"> <%= value %> </div>
+      <% end %>
     <%= form_for @message, :url => contact_path do |form| %>
       <fieldset class="fields">
         <div class="field">

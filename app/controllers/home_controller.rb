@@ -1,6 +1,7 @@
 class HomeController < ApplicationController
  
   def index 
+   puts "PARAMS = #{params.inspect}"
    if Recommendation.all.length > 0
      length = Recommendation.all.length
      r = Random.new
@@ -10,5 +11,8 @@ class HomeController < ApplicationController
    if AdminBio.all.length > 0
       @bio = AdminBio.all.first
     end
+   if params[:alert]
+     @notice = params[:alert]
+   end
   end
 end

@@ -1,4 +1,4 @@
-class NotificationsMailer < ActionMailer::Base
+class NotificationMailer < ActionMailer::Base
 
   default :from => "noreply@youdomain.dev"
   default :to => "ziptutoring4u@gmail.com"

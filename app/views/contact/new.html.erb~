@@ -3,6 +3,9 @@
     <div id= "contact_div_title">
       <h2 id = "contact_title" > Contact ZipTutoring </h2>
     </div> 
+      <% flash.each do |key, value| %>
+        <div> <%= value %> </div>
+      <% end %>
     <%= form_for @message, :url => contact_path do |form| %>
       <fieldset class="fields">
         <div class="field">
@@ -36,7 +39,7 @@
         <a href= <%= recommendation_path %> >Recommendations</a>  
       </p> 
       <p> 
-        Email <%= @bio.title %> at <%= @bio.contact %>
+        Email Ziptutoring at ziptutoring4u@gmail.com
       </p> 
     </div> 
   </div>

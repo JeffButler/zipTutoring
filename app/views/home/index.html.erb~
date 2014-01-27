@@ -1,12 +1,15 @@
 <div class= "tab_body" >
   <div class = "contentContainer">
     <h2 id= "homeMoto"> Tutoring for Students, by Students </h2> 
+    <% if @notice %>
+      <div class="flash"> <%= @notice %> </div>
+    <% end %>
     <div class = "homeTopWrapper"> 
-    <div class = "homeTopContainer"> 
+    <div class = "homeTopContainer">
       <div> 
         <%= image_tag("tutor.jpg", :alt => "rss feed", :class => "home_pic") %>
-        <%= if @rec %>
-          <h2 class= "homeTopContainerh2" ><span id= "rec_quote"><%= @rec.quote %></span></br><span id= "span_author"><%= @rec.author %></span></h2> 
+        <% if @rec %>
+          <h2 class= "homeTopContainerh2" ><span id= "rec_quote"><%= @rec.quote %></span></br><span id= "span_author"><%= @rec.author %></span></h2>
         <% end %>
       </div>
     </div>

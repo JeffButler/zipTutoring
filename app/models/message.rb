@@ -19,4 +19,8 @@ class Message
     false
   end
 
+  def valid_email?
+    %r{.+@.+\..+}.match(email)
+  end 
+
 end

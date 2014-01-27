@@ -76,7 +76,7 @@ tabs a{
 
 .tabs ul li.active .tab {
   color:  #FFF !important;
-  background-color: #38B648 !important;
+  background-color: #38B650 !important;
 }
 
 .tabs, .tabs a, .tabs a:visited, .tabs a:hover {
@@ -103,6 +103,15 @@ tabs a{
    width: 100%;
    min-height: 600px;
    padding-bottom: 100px;
+}
+
+.flash {
+   background: white;
+   margin: 1em 0;
+   padding: 4px;
+   color: red;
+   text-align: center;
+   font-weight: bold;
 }
 
 /** FOOTER **/
