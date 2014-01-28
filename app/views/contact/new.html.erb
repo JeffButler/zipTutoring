@@ -25,6 +25,7 @@
          <%= form.text_area :body %>
        </div>
      </fieldset>
+     <%= recaptcha_tags %>
      <fieldset class="actions", id= "send_email_div">
        <%= form.submit "Send", id: "send_email"%>
      </fieldset>

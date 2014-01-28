@@ -4,7 +4,7 @@
       <h2 id = "contact_title" > Contact ZipTutoring </h2>
     </div> 
       <% flash.each do |key, value| %>
-        <div> <%= value %> </div>
+        <div class="flash"> <%= value %> </div>
       <% end %>
     <%= form_for @message, :url => contact_path do |form| %>
       <fieldset class="fields">

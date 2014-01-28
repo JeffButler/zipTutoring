@@ -13,7 +13,10 @@ class ContactController < ApplicationController
     elsif @message.valid?
       NotificationMailer.new_message(@message).deliver
       flash.now.alert = "Successfully sent mail"
-      redirect_to({ :action => :index, :controller => :home,  :alert => "Successfully sent mail"})
+      redirect_to({ :action => :index, :controller => :home,  :alert => "Your email was successfully sent to Ziptutoring"})
+    elsif !verify_recaptcha()
+      flash.now.alert = "Invalid Recaptcha Input"
+      render :new
     else
       flash.now.alert = "Please fill all fields."
       render :new

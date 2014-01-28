@@ -10,6 +10,9 @@ class ContactController < ApplicationController
     if !@message.valid_email?
       flash.now.alert = "Please use a valid Email Address"
       render :new
+    elsif !verify_recaptcha()
+      flash.now.alert = "Invalid Recaptcha Input"
+      render :new
     elsif @message.valid?
       NotificationMailer.new_message(@message).deliver
       flash.now.alert = "Successfully sent mail"
